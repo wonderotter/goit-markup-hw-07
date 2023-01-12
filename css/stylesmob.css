@@ -1,0 +1,87 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+:root {
+    --main-text-color: #434455;
+    --head-color: #2E2F42;
+    --brand-color: #4D5AE5;
+    --light-background-color: #F4F4FD;
+    --accent-color: #E7E9FC;
+    --background-color-white: #FFFFFF;
+    --color-active-btn: #404BBF;
+    --modal-window-color: #8E8F99;
+    --input-text-color: #000000;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: var(--background-color-white);
+    color: var(--main-text-color);
+}
+
+@media screen and (min-width: 480px) .container {
+    max-width: 480px;
+}
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.page-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline-block;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--head-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.logo-span {
+    color: var(--brand-color);
+}
+
+
+
+

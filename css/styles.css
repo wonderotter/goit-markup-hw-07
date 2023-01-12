@@ -30,7 +30,7 @@ ul {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-}
+} 
 
 img {
     display: block;
@@ -863,4 +863,34 @@ body {
     line-height: 2;
     letter-spacing: 0.04em;
     color: rgba(255, 255, 255, 0.6);
+} 
+
+/* АДАПТИВ */
+/* .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
+@media screen and (min-width: 
+428px) {
+.container {width: 428px;
+}
+
+
+
+}
+
+@media screen and (min-width: 
+768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media screen and (min-width: 
+1200px) {
+    .container {
+        width: 1158px;
+    }
+} */
