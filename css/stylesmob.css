@@ -179,6 +179,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    opacity: 0;
     padding: 40px;
     padding-top: 80px;
     width: 100vw;
@@ -193,6 +194,7 @@ header {
 
 .menu-container.is-open {
     display: flex;
+    opacity: 1;
     visibility: visible;
     transform: translateX(0);
 }
@@ -382,6 +384,9 @@ header {
     }
 }
 
+
+
+
 .contact-list.list .contact:first-child {
     margin-bottom: 4px;
 }
@@ -393,13 +398,11 @@ header {
     }
 }
 
-.contact-list.list .mail {
-    padding-top: 17px;
-}
 
-.contact-list.list .phone {
-    padding-bottom: 17px;
-}
+
+
+
+
 
 @media screen and (min-width: 1200px) {
     .contact-list.list {
