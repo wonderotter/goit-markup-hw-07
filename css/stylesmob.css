@@ -139,8 +139,10 @@ header {
 
 .menu-btn {
     display: flex;
-    padding: 24px 0;
+    padding: 0;
     background-color: transparent;
+    width: 32px;
+    height: 22px;
 }
 
 @media screen and (min-width: 768px) {
@@ -193,6 +195,7 @@ header {
 }
 
 .menu-container.is-open {
+    background-color:var(--background-color-white);
     display: flex;
     opacity: 1;
     visibility: visible;
