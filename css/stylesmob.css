@@ -388,6 +388,14 @@ header {
   }
 }
 
+.mail {
+    padding-top: 24px;
+}
+
+.phone {
+    padding-bottom: 10px;
+}
+
 .contact-list.list .contact:first-child {
   margin-bottom: 4px;
 }
