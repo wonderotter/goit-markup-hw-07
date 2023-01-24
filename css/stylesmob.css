@@ -106,8 +106,7 @@ header {
   text-transform: uppercase;
   color: var(--headings-color);
   text-decoration: none;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 @media screen and (min-width: 1200px) {
@@ -341,7 +340,7 @@ header {
 
 .nav-link {
   position: relative;
-  padding: 23px 0;
+  padding: 24px 0 22px 0;
   display: block;
   font-weight: 500;
   line-height: 1.5;
@@ -388,13 +387,6 @@ header {
   }
 }
 
-.mail {
-    padding-top: 24px;
-}
-
-.phone {
-    padding-bottom: 10px;
-}
 
 .contact-list.list .contact:first-child {
   margin-bottom: 4px;
@@ -961,10 +953,6 @@ header {
   padding-bottom: 32px;
 }
 
-.team-name,
-.team-wrapper {
-  margin-bottom: 8px;
-}
 
 .team-wrapper .social-list-item {
   width: 40px;
